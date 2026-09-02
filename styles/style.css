@@ -45,7 +45,7 @@
 
 .header__content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header__title {
@@ -53,12 +53,14 @@
   font-size: 62px;
   line-height: 76px;
   margin-top: 128px;
+  font-weight: 500;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   max-width: 515px;
+  margin-top: 32px;
 }
 
 .header__image {
@@ -83,6 +85,7 @@
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
+  background-size: cover;
 }
 
 .staff__title {
@@ -143,6 +146,7 @@
 }
 
 .card__footer {
+  margin: 0;
   margin-top: auto;
   font-size: 14px;
   line-height: 20px;
@@ -233,13 +237,13 @@ max-width: 100%;
 .person_name_feynman {
   position: absolute;
   top: -30px;
-  right: 319px;
+  left: 319px;
 }
 
 .person_name_burbidge {
   position: absolute;
   right: 125px;
-  top: 116px;
+  top: 96px;
 }
 
 .person_name_cannon {
@@ -256,12 +260,12 @@ max-width: 100%;
 
 .person_name_tarter {
   position: absolute;
-  top: 109px;
+  top: 79px;
   left: 159px;
 }
 
 .person__image {
-   max-width: 100%;
+  max-width: 100%;
 }
 
 .person__image_size_l {
